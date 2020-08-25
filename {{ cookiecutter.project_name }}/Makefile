@@ -16,6 +16,7 @@ install:
 
 .PHONY: safety
 safety:
+	poretry run pip check
 	nox -rs safety-$(PYTHON_VERSION)
 
 .PHONY: pytest
