@@ -1,0 +1,13 @@
+{
+    "project_name": "project_name",
+    "description" : "",
+    "github_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "author": "Joe",
+    "version": "0.1.0",
+    "license": ["No license file", "MIT", "BSD-3", "GNU GPL v3.0", "Apache Software License 2.0"],
+    "email": "{{ cookiecutter.author.lower().replace(' ', '-') }}@gmail.com",
+
+    "_copy_without_render": [
+        "poetry.lock"
+    ]
+}
