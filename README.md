@@ -1,5 +1,5 @@
 <h1 align='center'>
-    Cookiecutter Python Project Template • :cookie: • :snake:
+    Python Project Template • :cookie: • :snake:
 </h1>
 
 <h4 align='center'>
@@ -26,7 +26,7 @@
 - Ready-to-use [`pre-commit`](https://pre-commit.com/) hooks that include:
     - [`Flakehell`](https://flakehell.readthedocs.io/) with linting plugins
     - [`Safety`](https://github.com/pyupio/safety) to check installed dependencies for known security vulnerabilities
-    - [`Mypy`](https://mypy.readthedocs.io) for optional static typing
+    - [`Mypy`](https://mypy.readthedocs.io) for static type checking
     - Code formatting with [`black`](https://github.com/psf/black), [`isort`](https://github.com/PyCQA/isort) and [`pyupgrade`](https://github.com/asottile/pyupgrade)
     - [`Darglint`](https://github.com/terrencepreilly/darglint) to check if docstrings match actual functions/methods
 - [`Xdoctest`](https://xdoctest.readthedocs.io/en/latest/) to run tests in docstrings
@@ -36,7 +36,8 @@
 ---
 ## How to use:
 
-### Installation:
+2 simple steps
+
 
 1. Install cookiecutter with:
 
@@ -51,22 +52,6 @@
     ```bash
     gh:paramoshin/python-project-template
     ```
-### Initialization  
-You will be asked to fill some information for generating your project.
-
-The input variables, with their default values are:
-
-|     **Parameter**     |      **Default value**      | **Description**                                                                                                                                                               |
-|:---------------------:|:---------------------------:|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `project_name`        | `project_name`            | The name of the project.                 |
-| `description` | ` ` | Brief description of your project.                                                                                                                                            |
-| `author`        | `author` | Name of the project author                                        |
-| `license`             | `No license file`                       | Type of license. One of `No license file`, `MIT`, `BSD-3`, `GNU GPL v3.0` and `Apache Software License 2.0`.                                                                                     |
-| `version`             | `0.1.0`                     | An initial version of the package. Make sure it follows the [Semantic Versions](https://semver.org/) specification.                                                           |
-| `email`               | based on the `author` | Email to specify the ownership of the project in `pyproject.toml`.                                 |
-
-The entered values will be saved in the `cookiecutter-config-file.yml` file and propagated into `pyproject.toml`.
-
 --- 
 
 ## Acknowledgements
