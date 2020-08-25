@@ -15,6 +15,6 @@ def hello(name: str) -> str:
 
     Example:
         >>> hello("World")
-        "Hello, World!"
+        'Hello, World!'
     """
     return f"Hello, {name}!"
