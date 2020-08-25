@@ -26,7 +26,7 @@
 - Ready-to-use [`pre-commit`](https://pre-commit.com/) hooks that include:
     - [`Flakehell`](https://flakehell.readthedocs.io/) with linting plugins
     - [`Safety`](https://github.com/pyupio/safety) to check installed dependencies for known security vulnerabilities
-    - [`Mypy`](https://mypy.readthedocs.io) for optional static typing
+    - [`Mypy`](https://mypy.readthedocs.io) for static type checking
     - Code formatting with [`black`](https://github.com/psf/black), [`isort`](https://github.com/PyCQA/isort) and [`pyupgrade`](https://github.com/asottile/pyupgrade)
     - [`Darglint`](https://github.com/terrencepreilly/darglint) to check if docstrings match actual functions/methods
 - [`Xdoctest`](https://xdoctest.readthedocs.io/en/latest/) to run tests in docstrings
