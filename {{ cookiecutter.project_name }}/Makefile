@@ -29,6 +29,10 @@ xdoctest:
 .PHONY: tests
 tests: pytest xdoctest
 
+.PHONY: lint
+lint:
+	poetry run pre-commit run --all-files  
+
 .PHONY: docs
 docs:
 	nox -rs docs-$(PYTHON_VERSION)
