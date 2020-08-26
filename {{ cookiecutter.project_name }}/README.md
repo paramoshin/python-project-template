@@ -42,10 +42,28 @@ All commands are set up in makefile for easy usage.
 make safety
 ```
 2. Run tests:
-* Unittests: `make pytest`
-* Docstring tests: `make xdoctest`
-* Both: `make tests`
-3. Run pre-commit hooks (include `black`, `isort`, `pyupgrade`, `flakehell` and `mypy`) on all files: `make lint`
-4. Create documentation from your code: `make docs`
-5. Build your package: `make build`
+* Unittests: 
+    ```bash
+    make pytest
+    ```
+* Docstring tests: 
+    ```bash
+    make xdoctest
+    ```
+* Both: 
+    ```bash
+    make tests
+    ```
+3. Run pre-commit hooks (include `black`, `isort`, `pyupgrade`, `flakehell` and `mypy`) on all files: 
+```bash
+make lint
+```
+4. Create beautiful html documentation from your code: 
+```bash
+make docs
+```
+5. Build your package: 
+```bash
+make build
+```
 
