@@ -36,9 +36,6 @@
 ---
 ## How to use:
 
-2 simple steps
-
-
 1. Install cookiecutter with:
 
     ```bash
@@ -52,6 +49,9 @@
     ```bash
     gh:paramoshin/python-project-template
     ```
+
+#### [More details](https://github.com/paramoshin/python-project-template/blob/master/%7B%7B%20cookiecutter.project_name%20%7D%7D/README.md)
+
 --- 
 
 ## Acknowledgements
