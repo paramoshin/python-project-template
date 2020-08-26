@@ -45,7 +45,7 @@ make safety
 * Unittests: `make pytest`
 * Docstring tests: `make xdoctest`
 * Both: `make tests`
-3. Run pre-commit hooks (include black, isort, pyupgrade, flakehell and mypy) on all files: `make lint`
+3. Run pre-commit hooks (include `black`, `isort`, `pyupgrade`, `flakehell` and `mypy`) on all files: `make lint`
 4. Create documentation from your code: `make docs`
 5. Build your package: `make build`
 
