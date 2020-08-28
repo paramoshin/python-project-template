@@ -58,21 +58,7 @@ ignore_missing_imports = true
 line-length = 120
 target-version = ['py36', 'py37', 'py38']
 include = '\.pyi?$'
-exclude = '''
-/(
-    \.eggs
-  | \.git
-  | \.hg
-  | \.mypy_cache
-  | \.nox
-  | \.venv
-  | _build
-  | buck-out
-  | build
-  | dist
-  | examples
-)/
-'''
+exclude = '(\.eggs|\.git|\.hg|\.mypy_cache|\.nox|\.venv|_build|buck-out|build|dist|examples)'
 
 [tool.flakehell]
 format = "grouped"
