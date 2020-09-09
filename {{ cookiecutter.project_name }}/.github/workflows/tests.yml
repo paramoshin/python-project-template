@@ -9,15 +9,11 @@ jobs:
     name: Python ${{ matrix.python-version }}
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v1
+    - uses: actions/setup-python@v1
       with:
         python-version: ${{ matrix.python-version }}
         architecture: x64
-    - name: Get poetry
-      run: make get-poetry
-    - name: Install dependencies
-    - run: |
-        pip install nox
-        poetry install
-    -run: nox tests
+    - run: make get-poetry
+    - run: pip install nox
+    - run: poetry install
+    - run: nox tests
